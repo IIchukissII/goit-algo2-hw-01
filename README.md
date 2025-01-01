@@ -16,11 +16,10 @@
    - For instance:
      - At 10,000 elements, the execution time is approximately 0.01 seconds.
      - At 50,000 elements, the execution time is approximately 0.05 seconds.
-     - 
 ## Visualization:
 The results are visualized in the plot "Execution Time vs Array Length". The scatter plot shows measured times, while the red line represents the fitted linear trend.
 
-![Execution Time vs Array Length](http://url/to/img.png)
+![Execution Time vs Array Length]([execution_time_vs_array_length.png])
 
 ## Conclusion:
 The `find_min_max` function demonstrates excellent scalability and adheres to its theoretical **O(n)** complexity. This makes it suitable for large datasets, as it processes arrays efficiently with minimal overhead.
